@@ -2,3 +2,42 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+img {
+    max-height: 450px;
+}
+
+section {
+    max-height: 644px;
+}
+
+#ch_th {
+    position: relative;
+
+}
+
+#chart {
+    position: absolute;
+    top: -169px;
+    left: 357px;
+}
+
+#chart>img {
+    height: 298.31146240234375px;
+    width: 207.36553955078125px;
+}
+
+#thinking {
+
+    position: absolute;
+    top: -188px;
+    right: 60px;
+    z-index: 1;
+}
+
+#thinking>img {
+    height: 474px;
+    width: 324px;
+
+
+}
