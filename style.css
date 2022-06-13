@@ -18,7 +18,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 0px 64px;
-    height: 300px;
+    height: 200px;
     text-align: center;
 }
 
@@ -26,6 +26,67 @@ section {
     max-width: 100px;
     margin-left: 30px;
     margin-bottom: 15px;
+}
+
+.sub-btn {
+    border: none;
+    width: 150px;
+    padding: 10px 20px;
+}
+
+#bt-1 {
+    background-color: #5454D4;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#bt-2 {
+    background-color: #dfdfe4;
+    color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.b-r {
+    border-right: 1.5px solid seagreen;
+}
+
+.card {
+    position: relative;
+    height: 441px;
+    width: 330px;
+    left: 0px;
+    bottom: -19px;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    color: #696871;
+    line-height: 50px;
+    margin-bottom: 0px;
+
+}
+
+.card>h1 {
+    color: #1D293F;
+    font-weight: bold;
+}
+
+.card:hover {
+    transition: 0.7s ease-in-out;
+    transform: rotate3d(1, 1, 1, 360deg);
+    box-shadow: 1px 1px 20px 1px;
+
+}
+
+
+#sp {
+    height: 473px;
+    width: 376px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #FF7143;
+    color: white;
 }
 
 /* #ch_th {
