@@ -12,6 +12,8 @@ section {
     max-height: 644px;
 }
 
+/* About sec */
+
 .ab {
     display: flex;
     flex-direction: column;
@@ -27,6 +29,10 @@ section {
     margin-left: 30px;
     margin-bottom: 15px;
 }
+
+/* About sec end */
+
+/* Sub section */
 
 .sub-btn {
     border: none;
@@ -51,6 +57,10 @@ section {
 .b-r {
     border-right: 1.5px solid seagreen;
 }
+
+/* Sub section end */
+
+/* Packages Section */
 
 .card {
     position: relative;
@@ -89,33 +99,4 @@ section {
     color: white;
 }
 
-/* #ch_th {
-    position: relative;
-
-}
-
-#chart {
-    position: absolute;
-    top: -169px;
-    left: 357px;
-}
-
-#chart>img {
-    height: 298.31146240234375px;
-    width: 207.36553955078125px;
-}
-
-#thinking {
-
-    position: absolute;
-    top: -188px;
-    right: 60px;
-    z-index: 1;
-}
-
-#thinking>img {
-    height: 474px;
-    width: 324px;
-
-
-} */
+/* Packages Section end */
