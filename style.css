@@ -12,6 +12,105 @@ section {
     max-height: 644px;
 }
 
+/* Hero section */
+
+.right-half {
+    position: relative;
+    height: 700px;
+}
+
+#man {
+    position: absolute;
+    /* top: -93px; */
+    width: 91%;
+    left: 18px;
+    z-index: 1;
+}
+
+#stand {
+    position: absolute;
+    padding-top: 117px;
+    margin-left: 56px;
+    /* top: 100px; */
+    /* left: 0px; */
+}
+
+#bubble {
+    position: absolute;
+    width: 36%;
+    bottom: 100px;
+    right: 0px;
+}
+
+@media (max-width: 400px) {
+    .right-half {
+        overflow: hidden;
+        height: 435px;
+        margin-top: 38px;
+    }
+
+    #man {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: 9px;
+        z-index: 1;
+    }
+
+    #stand {
+        position: absolute;
+        top: -40px;
+        left: -16px;
+        width: 100%;
+    }
+
+    #bubble {
+        position: absolute;
+        width: 36%;
+        right: -16px;
+        top: 294px;
+        height: 100px;
+    }
+}
+
+/* Hero section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* About sec */
 
 .ab {
