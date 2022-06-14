@@ -1,5 +1,6 @@
-body {
-    margin: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -81,40 +82,6 @@ img {
 
 
 /* In-depth end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* About sec */
 
@@ -207,7 +174,7 @@ img {
 /* Packages Section end */
 
 
-
+/* Meadia Query */
 
 @media (max-width: 400px) {
     .right-half {
