@@ -8,10 +8,6 @@ img {
     max-width: 100%;
 }
 
-section {
-    max-height: 644px;
-}
-
 /* Hero section */
 
 .right-half {
@@ -42,40 +38,49 @@ section {
     right: 0px;
 }
 
-@media (max-width: 400px) {
-    .right-half {
-        overflow: hidden;
-        height: 435px;
-        margin-top: 38px;
-    }
-
-    #man {
-        position: absolute;
-        top: 0px;
-        width: 100%;
-        left: 9px;
-        z-index: 1;
-    }
-
-    #stand {
-        position: absolute;
-        top: -40px;
-        left: -16px;
-        width: 100%;
-    }
-
-    #bubble {
-        position: absolute;
-        width: 36%;
-        right: -16px;
-        top: 294px;
-        height: 100px;
-    }
-}
 
 /* Hero section End */
 
+/* Index */
+#in_wrap {
+    display: flex;
+    overflow: hidden;
+}
 
+#piechart {
+    margin-right: 12px;
+    width: 100%;
+    margin-top: 94px;
+}
+
+/* Index end */
+
+
+
+/* In-depth */
+#ch_th {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+#think {
+    position: absolute;
+    width: 50%;
+    top: 40px;
+    left: 216px;
+    z-index: 1;
+}
+
+#chart {
+    position: absolute;
+    top: 70px;
+    width: 32%;
+    right: 98px;
+}
+
+
+/* In-depth end */
 
 
 
@@ -185,6 +190,7 @@ section {
     transform: rotate3d(1, 1, 1, 360deg);
     box-shadow: 1px 1px 20px 1px;
 
+
 }
 
 
@@ -199,3 +205,96 @@ section {
 }
 
 /* Packages Section end */
+
+
+
+
+@media (max-width: 400px) {
+    .right-half {
+        overflow: hidden;
+        height: 435px;
+        margin-top: 38px;
+    }
+
+    #man {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: 9px;
+        z-index: 1;
+    }
+
+    #stand {
+        position: absolute;
+        top: -40px;
+        left: -16px;
+        width: 100%;
+    }
+
+    #bubble {
+        position: absolute;
+        width: 36%;
+        right: -16px;
+        top: 294px;
+        height: 100px;
+    }
+
+    /* Index */
+
+    #in_wrap {
+        height: 400px;
+        position: relative;
+    }
+
+    #piechart {
+        position: absolute;
+        width: 37%;
+        top: -35px;
+        left: 30px;
+    }
+
+    #penboy {
+
+        position: absolute;
+
+        width: 100%;
+
+        left: 189px;
+
+    }
+
+    /* Index end */
+
+    /* In-depth */
+    #depth {
+        height: 750px !important;
+    }
+
+    #ch_th {
+        position: relative;
+    }
+
+    #think {
+        position: absolute;
+        width: 76%;
+        top: 0px;
+        left: 64px;
+    }
+
+    #chart {
+        position: absolute;
+        top: 31px;
+        width: 47%;
+        right: 24px;
+    }
+
+
+    /* In-depth end */
+
+
+    #sp {
+        top: 25px;
+        width: 330px;
+        margin-bottom: 10px;
+    }
+}
